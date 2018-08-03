@@ -1,11 +1,14 @@
 package com.infotel.tp.tp11.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Ship {
 
 	protected int width;
 	protected int x;
 	protected int y;
-	protected int hp;
+	protected List<Case> cases = new ArrayList<Case>();
 
 	public int getWidth() {
 		return width;
@@ -29,6 +32,14 @@ public class Ship {
 
 	public void setY(int y) {
 		this.y = y;
+	}
+
+	public List<Case> getCases() {
+		return cases;
+	}
+
+	public void setCases(List<Case> cases) {
+		this.cases = cases;
 	}
 
 }

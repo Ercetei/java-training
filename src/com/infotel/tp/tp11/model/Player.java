@@ -1,11 +1,15 @@
 package com.infotel.tp.tp11.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Player {
-	
+
 	private String name;
-	private int score;
+	private int score = 0;
 	private Board board;
-	
+	private List<Case> shots = new ArrayList<Case>();
+
 	public Player(String name) {
 		this.name = name;
 	}
@@ -33,4 +37,13 @@ public class Player {
 	public void setBoard(Board board) {
 		this.board = board;
 	}
+
+	public List<Case> getShot() {
+		return shots;
+	}
+
+	public void setShot(List<Case> shots) {
+		this.shots = shots;
+	}
+
 }
