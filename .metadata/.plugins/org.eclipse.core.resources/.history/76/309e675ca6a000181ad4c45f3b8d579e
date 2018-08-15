@@ -7,18 +7,17 @@ import com.infotel.tp.tpMeals.interfaces.Burger;
 /**
  * 
  */
-public class ChickenBurger extends Item implements Burger {
+public class VeganBurger extends Item implements Burger {
 
-    public ChickenBurger() {
+    public VeganBurger() {
 		this.packaging = new Wrapper();
-		this.price = 6.80;
 	}
 
-	private String CB = "Chicken Burger";
+	public String VB = "Vegan Burger";
 
     public String getName() {
         // TODO implement here
-        return CB;
+        return VB;
     }
 
     public void cook() {

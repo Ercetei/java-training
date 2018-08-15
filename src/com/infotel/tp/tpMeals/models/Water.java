@@ -12,6 +12,7 @@ public class Water extends Item implements Drink {
 
     public Water() {
 		this.packaging = new Bottle();
+		this.price = 3.40;
 	}
 
 	public String WATER = "Water";

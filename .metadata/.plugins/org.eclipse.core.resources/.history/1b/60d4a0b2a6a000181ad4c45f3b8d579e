@@ -29,8 +29,6 @@ public class Main {
 				System.out.println(item.getName() + " packed in " + item.getPackaging().wrap());
 			//}
 		}
-		System.out.println(meal.total());
-
 		
 		System.out.println("\n");
 		
@@ -42,8 +40,5 @@ public class Main {
 		for(Item item:meal2.items) {
 			System.out.println(item.getName() + " packed in " + item.getPackaging().wrap());
 		}
-		
-		System.out.println(meal2.total());
-
 	}
 }

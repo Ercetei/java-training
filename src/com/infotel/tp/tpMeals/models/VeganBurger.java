@@ -11,6 +11,7 @@ public class VeganBurger extends Item implements Burger {
 
     public VeganBurger() {
 		this.packaging = new Wrapper();
+		this.price = 21.50;
 	}
 
 	public String VB = "Vegan Burger";

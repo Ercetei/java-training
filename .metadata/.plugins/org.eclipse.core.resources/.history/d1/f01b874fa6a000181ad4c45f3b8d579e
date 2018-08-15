@@ -11,7 +11,6 @@ public class ChickenBurger extends Item implements Burger {
 
     public ChickenBurger() {
 		this.packaging = new Wrapper();
-		this.price = 6.80;
 	}
 
 	private String CB = "Chicken Burger";

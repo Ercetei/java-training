@@ -25,16 +25,6 @@ public class Meal {
 	public void setItems(List<Item> items) {
 		this.items = items;
 	}
-	
-	public double total() {
-		double total = 0.00;
-		
-		for(Item item: this.items) {
-			total += item.getPrice();
-		}
-		
-		return total;
-	}
 
 	@Override
 	public String toString() {

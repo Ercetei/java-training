@@ -8,17 +8,17 @@ import com.infotel.tp.tpMeals.interfaces.Drink;
 /**
  * 
  */
-public class Coke extends Item implements Drink {
+public class Water extends Item implements Drink {
 
-    public Coke() {
+    public Water() {
 		this.packaging = new Bottle();
-		this.price = 2.00;
 	}
 
-	public String COKE = "Coke";
+	public String WATER = "Water";
 
     public String getName() {
-        return COKE;
+        // TODO implement here
+        return WATER;
     }
 
     public void fill() {
