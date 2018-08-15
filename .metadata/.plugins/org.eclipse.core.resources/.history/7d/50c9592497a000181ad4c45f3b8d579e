@@ -1,0 +1,23 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Burger;
+import com.infotel.tp.tpMeals.interfaces.Drink;
+
+/**
+ * 
+ */
+public class Coke extends Item implements Drink {
+
+    public String COKE = "Coke";
+
+    public String getName() {
+        return COKE;
+    }
+
+    public void fill() {
+    	System.out.println(this.getName());
+    }
+
+}

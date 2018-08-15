@@ -1,0 +1,29 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * @param <String>
+ * 
+ */
+public class Bottle extends Item implements Packaging {
+
+    public Bottle(Packaging packaging) {
+		super(packaging);
+	}
+
+	public String BOTTLE = "Bottle";
+    
+
+    public String getName() {
+        // TODO implement here
+        return BOTTLE;
+    }
+
+    public void wrap() {
+    	System.out.println(this.getName());
+    }
+
+}

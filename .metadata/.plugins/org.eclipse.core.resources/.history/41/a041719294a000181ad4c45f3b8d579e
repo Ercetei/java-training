@@ -1,0 +1,37 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * @param <String>
+ * 
+ */
+public class Bottle implements Packaging {
+
+
+    /**
+     * 
+     */
+    public String BOTTLE = "Bottle";
+    
+    public Bottle() {
+    }
+
+    /**
+     * @return
+     */
+    public String getPackaging() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public void wrap() {
+        // TODO implement here
+    }
+
+}

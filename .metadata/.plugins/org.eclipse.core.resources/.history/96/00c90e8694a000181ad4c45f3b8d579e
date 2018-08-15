@@ -1,0 +1,39 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * 
+ */
+public class Wrapper extends Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Wrapper() {
+    }
+
+    /**
+     * 
+     */
+    public void WRAPPER String = "Wrapper";
+
+    /**
+     * @return
+     */
+    public String getPackaging() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public void wrap() {
+        // TODO implement here
+        return null;
+    }
+
+}

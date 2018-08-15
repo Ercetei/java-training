@@ -1,0 +1,39 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Toy;
+
+/**
+ * 
+ */
+public class Pokemon extends Toy {
+
+    /**
+     * Default constructor
+     */
+    public Pokemon() {
+    }
+
+    /**
+     * 
+     */
+    public void POKE String = "Pokemon";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public void which() {
+        // TODO implement here
+        return null;
+    }
+
+}

@@ -1,0 +1,16 @@
+package com.infotel.tp.tpMeals.interfaces;
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Packaging {
+
+	protected String name;
+	
+    public String wrap() {
+    	return this.name;
+    };
+
+}

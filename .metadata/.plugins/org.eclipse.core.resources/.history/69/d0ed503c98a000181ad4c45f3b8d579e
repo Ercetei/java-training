@@ -1,0 +1,23 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Burger;
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * 
+ */
+public class Wrapper extends Packaging {
+
+    public String WRAPPER = "Wrapper";
+
+    public String getName() {
+        return WRAPPER;
+    }
+
+    public void wrap() {
+    	System.out.println(this.getName());
+    }
+
+}

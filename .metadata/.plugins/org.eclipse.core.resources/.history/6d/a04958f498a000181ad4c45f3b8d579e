@@ -1,0 +1,28 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Burger;
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * 
+ */
+public class VeganBurger extends Item implements Burger {
+
+    public VeganBurger(Packaging packaging) {
+		super(packaging);
+	}
+
+	public String VB = "Vegan Burger";
+
+    public String getName() {
+        // TODO implement here
+        return VB;
+    }
+
+    public void cook() {
+    	System.out.println(this.getName());
+    }
+
+}

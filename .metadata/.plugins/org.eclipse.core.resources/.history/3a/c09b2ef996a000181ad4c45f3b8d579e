@@ -1,0 +1,37 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * 
+ */
+public class Item {
+	
+    public String name;
+    public String packaging;
+
+    /**
+     * Default constructor
+     */
+    public Item(Packaging packaging) {
+    	this.packaging = packaging;
+    }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPackaging() {
+		return packaging;
+	}
+
+	public void setPackaging(String packaging) {
+		this.packaging = packaging;
+	}
+}

@@ -1,0 +1,39 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Toy;
+
+/**
+ * 
+ */
+public class Dinosaur extends Toy {
+
+    /**
+     * Default constructor
+     */
+    public Dinosaur() {
+    }
+
+    /**
+     * 
+     */
+    public void DINO String = "Dinosaur";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public void which() {
+        // TODO implement here
+        return null;
+    }
+
+}

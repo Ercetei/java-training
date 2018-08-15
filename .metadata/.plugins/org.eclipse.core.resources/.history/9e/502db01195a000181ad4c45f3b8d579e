@@ -1,0 +1,18 @@
+package com.infotel.tp.tpMeals;
+
+public class Main {
+	
+	public Main() {
+		MealBuilder mb = new MealBuilder();
+		
+		Meal meal = 
+				mb.addItem(new ChickenBurger())
+				.addItem(new Coke())
+				.addItem(new Dinosaur())
+				.addItem(new Wrapper())
+				.build()
+				;
+		
+		System.out.println(meal);
+	}
+}

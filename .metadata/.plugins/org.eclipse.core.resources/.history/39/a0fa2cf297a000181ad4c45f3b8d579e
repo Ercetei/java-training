@@ -1,0 +1,22 @@
+package com.infotel.tp.tpMeals;
+
+import com.infotel.tp.tpMeals.interfaces.Burger;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		MealBuilder mb = new MealBuilder();
+		
+		Meal meal = mb.addItem(new ChickenBurger(new Wrapper()))
+				.addItem(new Coke(new Bottle()))
+				.addItem(new Dinosaur(new Wrapper()))
+				.addItem(new Pokemon(new Wrapper()))
+				.build();
+		
+		for(Item item:meal.items) {
+			if(item instanceof Burger) {
+				System.out.println(item.getName() + " emballé dans: " + item.getPackaging().getName());
+			}
+		}
+	}
+}

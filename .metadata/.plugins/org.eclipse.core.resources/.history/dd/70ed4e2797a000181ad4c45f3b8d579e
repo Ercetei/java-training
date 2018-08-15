@@ -1,0 +1,23 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Burger;
+
+/**
+ * 
+ */
+public class ChickenBurger extends Item implements Burger {
+
+    private String CB = "Chicken Burger";
+
+    public String getName() {
+        // TODO implement here
+        return CB;
+    }
+
+    public void cook() {
+    	System.out.println(this.getName());
+    }
+
+}

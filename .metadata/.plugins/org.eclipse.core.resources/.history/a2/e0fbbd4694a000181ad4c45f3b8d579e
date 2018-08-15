@@ -1,0 +1,12 @@
+package com.infotel.tp.tpMeals.interfaces;
+
+import java.util.*;
+
+/**
+ * 
+ */
+public interface Toy extends Item {
+
+    public void which();
+
+}

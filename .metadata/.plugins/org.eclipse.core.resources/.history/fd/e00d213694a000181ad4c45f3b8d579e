@@ -1,0 +1,14 @@
+package com.infotel.tp.tpMeals.interfaces;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.Item;
+
+/**
+ * 
+ */
+public interface Drink  extends Item implements Burger {
+
+    public void fill();
+
+}

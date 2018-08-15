@@ -1,0 +1,39 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Drink;
+
+/**
+ * 
+ */
+public class Coke extends Drink {
+
+    /**
+     * Default constructor
+     */
+    public Coke() {
+    }
+
+    /**
+     * 
+     */
+    public void COKE String = "Coke";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public void fill() {
+        // TODO implement here
+        return null;
+    }
+
+}

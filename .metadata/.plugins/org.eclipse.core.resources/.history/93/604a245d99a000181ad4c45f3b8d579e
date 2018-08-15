@@ -1,0 +1,39 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.models.Item;
+import com.infotel.tp.tpMeals.models.Meal;
+
+/**
+ * 
+ */
+public class MealBuilder {
+	
+    public List<Item> items = new ArrayList<Item>();
+
+    /**
+     * Default constructor
+     */
+    public MealBuilder() {
+    	
+    }
+
+    /**
+     * @param item 
+     * @return MealBuilder
+     */
+    public MealBuilder addItem(Item item) {
+        // TODO implement here
+    	this.items.add(item);
+        return this;
+    }
+
+    /**
+     * @return Meal
+     */
+    public Meal build() {
+        return new Meal(this);
+    }
+
+}

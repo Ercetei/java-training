@@ -1,0 +1,29 @@
+package com.infotel.tp.tpMeals;
+
+import java.util.*;
+
+import com.infotel.tp.tpMeals.interfaces.Burger;
+import com.infotel.tp.tpMeals.interfaces.Drink;
+import com.infotel.tp.tpMeals.interfaces.Packaging;
+
+/**
+ * 
+ */
+public class Water extends Item implements Drink {
+
+    public Water(Packaging packaging) {
+		super(packaging);
+	}
+
+	public String WATER = "Water";
+
+    public String getName() {
+        // TODO implement here
+        return WATER;
+    }
+
+    public void fill() {
+    	System.out.println(this.getName());
+    }
+
+}
