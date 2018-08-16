@@ -1,0 +1,18 @@
+package com.infotel.tp.tpPassword;
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Main {
+
+    public static void Main(String[] args) {
+    	findMyPassword("je suis gentil", file, 20);
+    }
+    
+    public void findMyPassword(String password, File file, int iterations) {
+    	
+    }
+
+}

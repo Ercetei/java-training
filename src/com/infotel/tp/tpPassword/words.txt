@@ -1,0 +1,12 @@
+je
+suis
+gentil
+0
+50
+13
+salut
+oui
+non
+pourquoi
+hello
+world

@@ -1,0 +1,14 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public interface Composant {
+
+    /**
+     * @return
+     */
+    public String getWord();
+
+}

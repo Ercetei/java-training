@@ -1,0 +1,16 @@
+package com.infotel.tp.tpPassword;
+import java.util.*;
+
+/**
+ * 
+ */
+public abstract class Composant {
+	
+	protected index = 0;
+	
+    /**
+     * @return
+     */
+    public int getIndex();
+
+}

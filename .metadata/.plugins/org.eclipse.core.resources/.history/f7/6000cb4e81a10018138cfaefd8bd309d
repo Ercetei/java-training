@@ -1,0 +1,63 @@
+package com.infotel.tp.tpPassword;
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class SentenceComposite extends Composant {
+
+    /**
+     * Default constructor
+     */
+    public SentenceComposite() {
+    }
+
+    /**
+     * 
+     */
+    private List<Word> children;
+
+    /**
+     * @return
+     */
+    public void SentenceComposite() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param word 
+     * @return
+     */
+    public void add(Word word) {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param word 
+     * @return
+     */
+    public void remove(Word word) {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
+    public Iterator getChildren() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
+    public String getWord() {
+        // TODO implement here
+        return "";
+    }
+
+}

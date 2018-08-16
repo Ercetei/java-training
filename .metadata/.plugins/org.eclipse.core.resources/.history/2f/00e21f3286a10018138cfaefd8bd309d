@@ -1,0 +1,30 @@
+package com.infotel.tp.tpPassword;
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Word extends Composant {
+
+    /**
+     * Default constructor
+     */
+    public Word() {
+    }
+
+    /**
+     * @return
+     */
+    public String getWord() {
+        // TODO implement here
+        return "";
+    }
+
+	@Override
+	public int getIndex() {
+		// TODO Auto-generated method stub
+		return this.index;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.infotel.tp.tpPassword;
+import java.util.*;
+
+/**
+ * 
+ */
+public interface Composant {
+
+    /**
+     * @return
+     */
+    public String getWord();
+
+}

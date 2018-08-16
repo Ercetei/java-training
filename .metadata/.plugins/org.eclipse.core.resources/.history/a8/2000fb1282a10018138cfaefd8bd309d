@@ -1,0 +1,23 @@
+package com.infotel.tp.tpPassword;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.*;
+
+/**
+ * 
+ */
+public class Main {
+
+    public static void Main(String[] args) {
+    	File file = new File("words.txt");
+    	findMyPassword("je suis gentil", file, 20);
+    }
+    
+    public static void findMyPassword(String password, File file, int iterations) throws FileNotFoundException {
+    	BufferedReader br = new BufferedReader(new FileReader(file));
+    }
+
+}
